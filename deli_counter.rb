@@ -5,6 +5,6 @@ def line(customers)
   if (customers.size > 0)
     print ": "
   else
-    puts " empty."
+    print " empty."
   end
 end
