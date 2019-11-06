@@ -1,5 +1,3 @@
-katz_deli = []
-
 def line(customers)
   if customers.size > 0
     string = ""
