@@ -14,6 +14,6 @@ def line(customers)
   end
 end
 
-def take_a_number(person)
-  
+def take_a_number(customer)
+  katz_deli.push(customer)
 end
