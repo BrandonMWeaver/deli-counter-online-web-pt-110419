@@ -4,11 +4,13 @@ def line(customers)
   if (customers.size > 0)
     print "The line is currently:"
     
+    string = ""
     index = 1
     while index < customers.size do
-      print " #{index}. #{customers[index]}"
+      string += " #{index}. #{customers[index]}"
       index += 1
     end
+    puts string
   else
     puts "The line is currently empty."
   end
