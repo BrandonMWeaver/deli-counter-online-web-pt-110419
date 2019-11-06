@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(customers)
-  if (customers.size > 0)
+  if customers.size > 0
     string = ""
     index = 0
     while index < customers.size do
@@ -20,5 +20,5 @@ def take_a_number(customers, customer)
 end
 
 def now_serving(customers)
-  
+  if customers.size > 0
 end
