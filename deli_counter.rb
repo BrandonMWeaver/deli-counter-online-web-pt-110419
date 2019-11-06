@@ -21,4 +21,6 @@ end
 
 def now_serving(customers)
   if customers.size > 0
+    
+  end
 end
