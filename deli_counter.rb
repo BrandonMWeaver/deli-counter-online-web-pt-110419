@@ -1,11 +1,10 @@
 katz_deli = []
 
 def line(customers)
-  puts "The line is currently"
   if (customers.size > 0)
-    print ": "
+    puts "The line is currently: "
   else
-    print " empty."
+    puts "The line is currently empty."
   end
 end
 
