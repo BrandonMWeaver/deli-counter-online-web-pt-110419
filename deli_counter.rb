@@ -2,7 +2,7 @@ katz_deli = []
 
 def line(customers)
   if (customers.size > 0)
-    print "The line is currently:"
+    puts "The line is currently:"
     
     string = ""
     index = 1
