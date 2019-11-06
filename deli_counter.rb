@@ -19,6 +19,9 @@ end
 
 def now_serving(customers)
   if customers.size > 0
-    
+    puts "Currently serving #{customers.first}."
+    customers.shift
+  else
+    puts "There is nobody waiting to be served!"
   end
 end
