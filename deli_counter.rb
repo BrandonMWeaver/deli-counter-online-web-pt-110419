@@ -3,9 +3,9 @@ katz_deli = []
 def line(customers)
   if (customers.size > 0)
     string = ""
-    index = 1
+    index = 0
     while index < customers.size do
-      string += " #{index}. #{customers[index]}"
+      string += " #{index + 1}. #{customers[index]}"
       index += 1
     end
     puts "The line is currently:#{string}"
