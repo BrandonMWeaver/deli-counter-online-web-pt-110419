@@ -8,7 +8,7 @@ def line(customers)
       string += " #{index}. #{customers[index]}"
       index += 1
     end
-    puts "The line is currently: #{string}"
+    puts "The line is currently:#{string}"
   else
     puts "The line is currently empty."
   end
