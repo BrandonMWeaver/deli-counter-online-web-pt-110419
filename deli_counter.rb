@@ -17,4 +17,5 @@ end
 def take_a_number(customers, customer)
   customers.push(customer)
   puts "Welcome #{customer}. You are number #{customers.size} in line."
+  return customers
 end
