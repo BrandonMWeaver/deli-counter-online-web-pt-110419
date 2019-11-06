@@ -8,3 +8,5 @@ def line(customers)
     print " empty."
   end
 end
+
+line(katz_deli)
