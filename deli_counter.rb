@@ -16,5 +16,5 @@ end
 
 def take_a_number(customers, customer)
   customers << customer
-  puts "Welcome #{customer}. You are number #{customers.size} in line."
+  puts "Welcome, #{customer}. You are number #{customers.size} in line."
 end
